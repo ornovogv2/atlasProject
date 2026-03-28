@@ -4,12 +4,14 @@ on:
   push:
     branches:
       - master
+      - main
     paths:
       - .github/workflows/atlas-plan-push.yaml
       - 'schema.sql'
   pull_request:
     branches:
       - master
+      - main
     paths:
       - .github/workflows/atlas-plan-push.yaml
       - 'schema.sql'
