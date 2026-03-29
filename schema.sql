@@ -1,4 +1,5 @@
 CREATE TABLE users (
                        id SERIAL PRIMARY KEY,
-                       name TEXT
+                       name TEXT,
+                       last_name TEXT
 );
